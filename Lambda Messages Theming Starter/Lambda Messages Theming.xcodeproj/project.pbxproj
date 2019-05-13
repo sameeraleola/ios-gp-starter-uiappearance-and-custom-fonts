@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37C422D02289EBF6004A97E6 /* AppearanceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C422CF2289EBF6004A97E6 /* AppearanceHelper.swift */; };
 		4612369A212CDA8D00E7FF73 /* MessageCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46123699212CDA8D00E7FF73 /* MessageCreationViewController.swift */; };
 		46392CFD212D248800C65AB7 /* rm_typerighter_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46392CFC212D244E00C65AB7 /* rm_typerighter_medium.ttf */; };
 		46A2C0F3212B500000E7FF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A2C0F2212B500000E7FF73 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37C422CF2289EBF6004A97E6 /* AppearanceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppearanceHelper.swift; path = "../../../../xios-gp-starter-uiappearance-and-custom-fonts/Lambda Messages Theming Starter/Lambda Messages Theming/Helpers/AppearanceHelper.swift"; sourceTree = "<group>"; };
 		46123699212CDA8D00E7FF73 /* MessageCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCreationViewController.swift; sourceTree = "<group>"; };
 		46392CFC212D244E00C65AB7 /* rm_typerighter_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rm_typerighter_medium.ttf; sourceTree = "<group>"; };
 		46A2C0EF212B500000E7FF73 /* Lambda Messages Theming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lambda Messages Theming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +62,7 @@
 		46392CFE212D2BF500C65AB7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				37C422CF2289EBF6004A97E6 /* AppearanceHelper.swift */,
 				46A2C10A212B659500E7FF73 /* AuthenticationHelper.swift */,
 			);
 			path = Helpers;
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46A2C10D212B68B800E7FF73 /* SignupViewController.swift in Sources */,
+				37C422D02289EBF6004A97E6 /* AppearanceHelper.swift in Sources */,
 				46A2C107212B61FB00E7FF73 /* Message.swift in Sources */,
 				46A2C109212B626F00E7FF73 /* MessageController.swift in Sources */,
 				46A2C105212B60D100E7FF73 /* MessageListViewController.swift in Sources */,
